@@ -1,0 +1,8 @@
+# conda env export --no-builds > environment.yml
+name: ga
+channels:
+  - defaults
+dependencies:
+  - jupyterlab=3.0.11
+  - pyspark=3.0.2
+  - python=3.8.8
